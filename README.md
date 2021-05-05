@@ -8,8 +8,8 @@ The STrOBe is a small, portable beacon that can be used to identify a target in 
 Depending on the where you source your Arduino Nano you will have to install drivers in order to properly open a com port to communicate and upload code to the Arduino
 
 To install CH340G drivers needed for boards usually sourced not from the Arduino site, this step is unneccessary for boards from the Arduino site:
-1) Download the Windows CH340 Driver
+1) Download the Driver labeled as Windows CH340 Driver
 2) Unzip the file
-3) Run the installer which you unzipped
-4) In the Arduino IDE when the CH340 is connected you will see a COM Port in the Tools > Serial Port menu, the COM number for your device may vary depending on your system.
-To install CH340G drivers needed for boards usually sourced not from the Arduino site:
+3) Run the installer which will be in the unzipped file
+4) In the Arduino IDE when the CH340 is connected you will see a COM Port in the Tools > Serial Port menu, the COM port will vary per device
+
